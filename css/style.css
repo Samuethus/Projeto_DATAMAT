@@ -210,7 +210,7 @@ text-align: center;
 }
 
 #items{
-    width: 650px;
+    width: 100%;
 }
 
 #items .item{
@@ -283,7 +283,22 @@ text-align: center;
     text-align: center;
 }   
 
+#curriculo{
+    width: 100%; 
+    background: #063553;
+    color: white;
+    margin-bottom: 10px;
+}
 
+#curriculo .headline{
+    margin-bottom: -56px;
+}
+
+#curriculo-container{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+}
 
 .curriculo{
     display: flex;
@@ -293,25 +308,6 @@ text-align: center;
     padding: 15px;
     border-radius: 5px;
 }
-
-#curriculo{
-    width: 100%; 
-    background: #063553;
-    padding: 30px;
-    color: white;
-    margin:0px 0px ;
-    transform: translateY(90px);
-}
-
-#curriculo-container{
-    width: 100%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: justify;
-}
-
 .curriculo .curriculo-image{
     height: 250px;
     width: auto;
@@ -341,5 +337,14 @@ text-align: center;
     width: 40%;
     display: inline-block;
     border-radius: 5px;
-    margin: 8px 35px;
+    margin: 0px 60px;
 }
+
+#wallpaper{
+    height: 30vh;
+    background: url('/imagem/computer.png') no-repeat center center/cover;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: color;
+    margin-bottom: 10px;
+}
+
