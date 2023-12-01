@@ -78,6 +78,21 @@ body,html{
 padding: 10px;   
 }
 
+.menu{
+    cursor: pointer;
+    display: none;
+}
+
+.bar{
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 3px;
+    background: white;
+    margin: 5px auto; 
+    transition: all 0.3s;
+}
+
 #showcase{
     height: 100vh;
     display: flex;
