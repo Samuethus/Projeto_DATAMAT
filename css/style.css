@@ -55,7 +55,7 @@ body,html{
     height: 80px;
     background: #063553;
     color: #eee;
-    position: fixed
+    position: fixed;
 
 }
 
@@ -143,6 +143,7 @@ text-align: center;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 50px;
     margin-bottom: 10px;
+    
 
 }
 
@@ -163,6 +164,7 @@ text-align: center;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 50px;
+    text-align: justify;
 }
 
 .feature{
@@ -217,7 +219,6 @@ text-align: center;
     background: #063553;
     padding: 50px;
     color: white;
-
 }
 
 #testimonials-container{
@@ -236,12 +237,13 @@ text-align: center;
 }
 
 #gallery{
-    width: 90%;
+    width: 90vw;
     margin: auto;
     padding: 50px 0px;
 }
 
 #gallery-container{
+    width: 90vw;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 30px;
@@ -249,9 +251,10 @@ text-align: center;
 }
 
 .gallery-image{
+
     display: inline-block;
-    width: 540px;
-    height: 320px;
+    width: 100%;
+    height: 230px;
     border-radius: 5px;
 }
 
@@ -264,3 +267,64 @@ text-align: center;
     justify-items: center;
     text-align: center;
 }   
+
+
+
+.curriculo{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    background: #075E94;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#curriculo{
+    width: 100%; 
+    background: #063553;
+    padding: 30px;
+    color: white;
+    margin:0px 0px ;
+    transform: translateY(90px);
+}
+
+#curriculo-container{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.curriculo .curriculo-image{
+    height: 250px;
+    width: auto;
+    border-radius: 50%;
+    margin: 0px 30px;
+}
+
+#social{
+
+    background: white;
+    color: #063553;
+    width: 90vw;
+    height: auto;
+    margin: auto;
+    /*transform: translateY(-10px);*/
+}
+
+#social-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    justify-items: center;
+    padding: 15px;
+}
+
+.social-image{
+    width: 40%;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 8px 35px;
+}
