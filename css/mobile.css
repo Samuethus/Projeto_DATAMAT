@@ -39,6 +39,11 @@
     transition: 0.3s;
 }
 
+#navbar-items.ativo{
+    right: 0;
+    align-items: center;
+}
+
 #navbar-items li:nth-child(2){
     border-top: 1px solid #eeeeeeb2;
     border-bottom: 1px solid #eeeeeeb2;
