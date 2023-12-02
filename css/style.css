@@ -352,7 +352,7 @@ a .client-image{
 }
 
 #ferramenta{
-    height: 200px;
+    height: 170px;
     display: flex;
     justify-content: center;
     color: #063553;
@@ -373,7 +373,7 @@ text-align: center;
     display: flex;
     align-items: center;
     font-size: 1.5rem;
-    background: #075E94;
+    background: #eeeeee;
     padding: 15px;
     margin: 15px 0;
     border-radius: 5px;
@@ -381,9 +381,11 @@ text-align: center;
 
 #dashboard{
     width: 100%; 
-    background: #063553;
-    padding: 50px;
-    color: white;
+    background:  white;
+    padding: 10px;
+    color: #063553;
+    text-align: justify;
+
 }
 
 #dashboard-container{
@@ -395,8 +397,7 @@ text-align: center;
 }
 
 .dashboard .dashboard-image{
-    height: 200px;
-    width: auto;
-    border-radius: 50%;
-    margin: 0px 15px;
+    height: 400px;
+    width: 750px;
+    margin: 0px 50px;
 }

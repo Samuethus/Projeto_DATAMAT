@@ -172,6 +172,54 @@ width: 100vw;
     margin: 8px 15px;
 }
 
+#ferramenta{
+    height: 170px;
+    display: flex;
+    justify-content: center;
 
+    color: #063553;
+}
+
+#ferramenta-container{
+text-align: center;
+}
+
+#ferramenta-container h2{
+    font-size: 3rem;    
+    padding: 100px 0px;
+    font-size: 1.5rem;
+
+}
+
+.dashboard{
+    display: grid;
+    align-items: center;
+    font-size: 1.1rem;
+    background: #eeeeee;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+#dashboard{
+    width: 100%; 
+    background:  white;
+    padding: 10px;
+    color: #063553;
+    text-align: justify;
+}
+
+#dashboard-container{
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.dashboard .dashboard-image{
+    height: 150px;
+    width: 350px;
+    margin: auto;
+    margin-bottom: 5px;
+}
 
 }
