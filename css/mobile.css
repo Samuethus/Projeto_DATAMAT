@@ -222,4 +222,12 @@ text-align: center;
     margin-bottom: 5px;
 }
 
+.star {
+    margin-top: 40px;
+    font-size: 2rem;
+    color: #063553;
+    border: none;
+    text-align: center;
+}
+
 }

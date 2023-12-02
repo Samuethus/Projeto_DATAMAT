@@ -364,10 +364,8 @@ text-align: center;
 
 #ferramenta-container h2{
     font-size: 3rem;    
-    padding: 100px 0px;
-    
+    padding: 100px 0px;   
 }
-
 
 .dashboard{
     display: flex;
@@ -385,7 +383,6 @@ text-align: center;
     padding: 10px;
     color: #063553;
     text-align: justify;
-
 }
 
 #dashboard-container{
@@ -400,4 +397,15 @@ text-align: center;
     height: 400px;
     width: 750px;
     margin: 0px 50px;
+}
+
+#descrição p{
+    margin-top: 50px;
+}
+
+.star {
+    margin-top: 40px;
+    font-size: 3rem;
+    color: #063553;
+    border: none
 }
