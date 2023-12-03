@@ -41,26 +41,6 @@
     ;
 }
 
-/*--------------------REMOVENDO MENU/*--------------------*/
-
-.menu.desativo .bar:nth-child(1){
-    transform: translateY(8px) rotate(45deg);
-}
-
-.menu.desativo .bar:nth-child(2){
-    opacity: 100%;
-}
-
-.menu.desativo .bar:nth-child(3){
-    transform: translateY(-8px) rotate(-45deg);
-}
-
-#navbar-items.desativo{
-    right: 0;
-    align-items: center
-    ;
-}
-
 #navbar-items{
     position: fixed;
     right: -100%;
@@ -73,13 +53,10 @@
     transition: 0.3s;
 }
 
-
-
 #navbar-items li:nth-child(2){
     border-top: 1px solid #eeeeeeb2;
     border-bottom: 1px solid #eeeeeeb2;
 }
-
 
 .menu{
     display: block;
@@ -93,6 +70,14 @@
     background: white;
     margin: 5px auto; 
     transition: all 0.3s;
+}
+
+#showcase-container h2{
+    font-size: 2.7rem;
+}
+
+#clients .headline{
+    font-size: 2rem;
 }
 
 #features {
@@ -166,7 +151,7 @@ width: 100vw;
 }
 
 #testimonials{
-    font-size: 0.3rem;
+    font-size: 5rem;
 
 }
 
