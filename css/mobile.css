@@ -8,8 +8,12 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+}
 
-    }
+
+.headline{
+    font-size: 1.6rem;
+}
 
 #navbar{
     width: 100vw;
@@ -151,7 +155,7 @@ width: 100vw;
 }
 
 #testimonials{
-    font-size: 5rem;
+    font-size: 0.3rem;
 
 }
 
@@ -223,7 +227,7 @@ text-align: center;
 }
 
 .dashboard .dashboard-image{
-    height: 150px;
+    height: 190px;
     width: 350px;
     margin: auto;
     margin-bottom: 5px;

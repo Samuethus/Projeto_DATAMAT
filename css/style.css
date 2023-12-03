@@ -100,7 +100,7 @@ padding: 10px;
     justify-content: center;
     align-items: center;
     color: #eee;
-    background: url('/imagem/computer.png') no-repeat center center/cover;
+    background: url('https://pecepoli.com.br/wp-content/uploads/2022/08/ESW-imagem.jpg') no-repeat center center/cover;
     background-color: rgba(0,0,0,0.5);
     background-blend-mode: color;
 }
@@ -110,8 +110,7 @@ text-align: center;
 }
 
 #showcase-container h2{
-    font-size: 3rem;
-    
+    font-size: 3rem
 }
 
 #showcase-container p{
@@ -120,7 +119,6 @@ text-align: center;
 }
     
 #clients{
-
     background: white;
     color: #063553;
     width: 90vw;
@@ -143,9 +141,6 @@ a .client-image{
     border-radius: 5px;
 }
 
-
-
-
 #features{
     width: 100%;
    /* height: 80px;*/
@@ -162,8 +157,6 @@ a .client-image{
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 50px;
     margin-bottom: 10px;
-    
-
 }
 
 .sec {
@@ -193,7 +186,6 @@ a .client-image{
     padding: 20px;
     border-radius: 5px;
     align-items: center;
-   
 }
 
 #product {
@@ -346,7 +338,7 @@ a .client-image{
 
 #wallpaper{
     height: 30vh;
-    background: url('/imagem/computer.png') no-repeat center center/cover;
+    background: url('https://pecepoli.com.br/wp-content/uploads/2022/08/ESW-imagem.jpg') no-repeat center center/cover;
     background-color: rgba(0,0,0,0.5);
     background-blend-mode: color;
     margin-bottom: 10px;
