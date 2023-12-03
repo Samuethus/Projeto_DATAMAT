@@ -4,6 +4,7 @@ const NavMenu = document.querySelector("#navbar-items");
 menu.addEventListener("click" , () => {
     menu.classList.toggle("ativo");
     NavMenu.classList.toggle("ativo");
+  
 })
 
 $("#navbar a, .btn").on("click", function (event) {
