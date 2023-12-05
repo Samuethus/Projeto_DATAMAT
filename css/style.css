@@ -106,7 +106,7 @@ padding: 10px;
 }
 
 #showcase-container{
-text-align: center;
+    text-align: center;
 }
 
 #showcase-container h2{
@@ -144,7 +144,7 @@ a .client-image{
 #features{
     width: 100%;
    /* height: 80px;*/
-    background: #063553;
+    background-image:linear-gradient(to left , #04253a, #041c2b ) ;
     color: #eee;
     padding: 50px;
     margin: 0px;
@@ -164,7 +164,7 @@ a .client-image{
     font-weight: bold;
     display: flex;
     flex-direction: column;
-    background: #075E94;
+    background: #063553;
     padding: 5px;
     border-radius: 5px;
     align-items: center;
@@ -182,7 +182,7 @@ a .client-image{
 .feature{
     display: flex;
     flex-direction: column;
-    background: #075E94;
+    background: #063553;
     padding: 20px;
     border-radius: 5px;
     align-items: center;
@@ -219,7 +219,7 @@ a .client-image{
     display: flex;
     align-items: center;
     font-size: 1.5rem;
-    background: #075E94;
+    background: #063553;
     padding: 15px;
     margin: 15px 0;
     border-radius: 5px;
@@ -227,7 +227,7 @@ a .client-image{
 
 #testimonials{
     width: 100%; 
-    background: #063553;
+    background-image:linear-gradient(to left , #04253a, #041c2b ) ;
     padding: 50px;
     color: white;
 }
@@ -281,7 +281,7 @@ a .client-image{
 
 #curriculo{
     width: 100%; 
-    background: #063553;
+    background-image:linear-gradient(to left , #04253a, #041c2b ) ;
     color: white;
     margin-bottom: 10px;
 }
@@ -300,7 +300,7 @@ a .client-image{
     display: flex;
     align-items: center;
     font-size: 1.5rem;
-    background: #075E94;
+    background: #063553;
     padding: 15px;
     border-radius: 5px;
 }
@@ -376,6 +376,7 @@ text-align: center;
     padding: 10px;
     color: #063553;
     text-align: justify;
+
 }
 
 #dashboard-container{
@@ -401,4 +402,8 @@ text-align: center;
     font-size: 3rem;
     color: #063553;
     border: none
+}
+
+#showcase-container {
+    visibility: hidden;
 }
