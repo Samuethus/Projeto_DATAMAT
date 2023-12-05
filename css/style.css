@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+@keyframes degrade {
+    0%{background-position-x: 0%;}
+    100%{background-position-x: 100%;}
+}
+
 /* PALETA DE CORES
 #EB7800 - LARANJA
 #5F7200 - VERDE
@@ -28,7 +33,6 @@ body,html{
 .btn{
     display: line-black;
     padding: 10px 60px;
-    
     font-size: 1.1rem;
     text-transform: uppercase;
     background: #063553;
@@ -145,10 +149,13 @@ a .client-image{
 #features{
     width: 100%;
    /* height: 80px;*/
-    background-image:linear-gradient(to left , #04253a, #041c2b ) ;
     color: #eee;
     padding: 50px;
     margin: 0px;
+    background-image:linear-gradient(to left , #075E94 , #063553, #04253a ) ;
+    background-size: 500% 100%;
+    animation: degrade 4s infinite alternate;
+
 }
 
 #features-titulo  {
@@ -228,9 +235,11 @@ a .client-image{
 
 #testimonials{
     width: 100%; 
-    background-image:linear-gradient(to left , #04253a, #041c2b ) ;
     padding: 50px;
     color: white;
+    background-image:linear-gradient(to left , #075E94 , #063553, #04253a ) ;
+    background-size: 500% 100%;
+    animation: degrade 4s infinite alternate;
 }
 
 #testimonials-container{
@@ -282,9 +291,11 @@ a .client-image{
 
 #curriculo{
     width: 100%; 
-    background-image:linear-gradient(to left , #04253a, #041c2b ) ;
     color: white;
     margin-bottom: 10px;
+    background-image:linear-gradient(to left , #075E94 , #063553, #04253a ) ;
+    background-size: 500% 100%;
+    animation: degrade 4s infinite alternate;
 }
 
 #curriculo .headline{
