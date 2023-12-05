@@ -12,5 +12,6 @@ revelar.reveal ('.dashboard .dashboard-image' , {
     
     duration: 1000,
     delay: 500,
+    origin: 'left'
 
 }); 

@@ -22,6 +22,7 @@ a{
 
 body,html{
     background-color: white;
+    user-select: none;
 }
 
 .btn{
@@ -404,6 +405,6 @@ text-align: center;
     border: none
 }
 
-#showcase-container {
+#showcase-container , .dashboard .dashboard-image{
     visibility: hidden;
 }
