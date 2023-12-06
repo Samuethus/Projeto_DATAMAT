@@ -66,6 +66,39 @@
     display: block;
 }
 
+.navbar-excel , .navbar-power , .navbar-qlik{
+    display: block;
+    width: 99vw;
+    height: 40px;
+    font-size: 23px;
+    margin: -8px;
+    padding: 5px;
+    font-weight: lighter;
+    text-align: center;
+    box-shadow: 0 0 8px #0000005a;
+}
+
+.navbar-excel:hover{
+    box-shadow: 0 0 8px #0000005a;
+    background: #005B30;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.navbar-power:hover{
+    box-shadow: 0 0 8px #0000005a;
+    background: #EA9203;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.navbar-qlik:hover{
+    box-shadow: 0 0 8px #0000005a;
+    background: #9cbb00;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
 .bar{
     display: block;
     width: 28px;

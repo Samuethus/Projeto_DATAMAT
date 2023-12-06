@@ -8,9 +8,12 @@
 /* PALETA DE CORES
 #EB7800 - LARANJA
 #5F7200 - VERDE
+#005B30 - VERDE EXCEL
 #7F7F7F - CINZA
 #075E94 - AZUL MEDIO
 #063553 - AZUL ESCURO
+#EA9203 - AMARELO POWERBI
+
 */
 
 *{
@@ -87,6 +90,12 @@ padding: 10px;
 .menu{
     cursor: pointer;
     display: none;
+}
+
+.navbar-excel , .navbar-power , .navbar-qlik{
+    display: none;
+    list-style: none;
+    text-transform: uppercase;
 }
 
 .bar{
