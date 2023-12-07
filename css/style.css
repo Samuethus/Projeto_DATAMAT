@@ -68,6 +68,10 @@ body,html{
 
 }
 
+#navbar .datamat-logo-simples{
+    display: none;
+}
+
 #navbar-container{
     width: 80%;
     height: 100%;
