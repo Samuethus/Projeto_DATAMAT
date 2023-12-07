@@ -102,6 +102,10 @@ padding: 10px;
     text-transform: uppercase;
 }
 
+#navbar-items li:nth-child(5){
+    display: none;
+}
+
 .bar{
     display: block;
     width: 28px;
@@ -220,7 +224,7 @@ a .client-image{
     align-items: center;
 }
 
-.ImgLogo{
+.animação-logo{
     display: inline-block;
     width: 70%; 
     margin: 50px 0px;

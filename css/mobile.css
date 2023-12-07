@@ -71,6 +71,7 @@
 }
 
 #navbar-items li:nth-child(5){
+    display: flex;
     width: 40vw;
     border-bottom: 1px solid #eeeeeeb2;
     text-align: left;
@@ -87,7 +88,7 @@
     height: 40px;
     font-size: 20px;
     margin: -8px;
-    padding: 5px;
+    padding: 0px 20px;
     font-weight: lighter;
     text-align: left;
 
@@ -180,6 +181,11 @@ width: 100vw;
 .iphone-x{
     display: flex;
     width: 100%;
+}
+
+.animação-logo{
+    display: flex;
+    width: 122%;
 }
 
 #items{
