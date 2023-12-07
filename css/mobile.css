@@ -55,6 +55,7 @@
     background: #063553;
     gap: -10px;
     transition: 0.3s;
+
 }
 
 #navbar-items li:nth-child(2){
