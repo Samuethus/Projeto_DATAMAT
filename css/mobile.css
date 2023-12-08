@@ -87,11 +87,10 @@
     width: 50vw;
     height: 40px;
     font-size: 20px;
-    margin: -8px;
-    padding: 0px 20px;
+    margin: -10px;
+    padding: 5px 20px;
     font-weight: lighter;
     text-align: left;
-
 }
 
 .navbar-excel:hover{
